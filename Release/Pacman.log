@@ -1,0 +1,28 @@
+﻿La génération a démarré 05/02/2017 11:07:21.
+     1>Projet "C:\Users\¢ombre\Documents\Visual Studio 2010\Projects\Pacman\Pacman\Pacman.vcxproj" sur le nœud 2 (build cible(s)).
+     1>InitializeBuildStatus:
+         Création de "Release\Pacman.unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\¢ombre\Documents\Visual Studio 2010\Projects\Libraries-SDL2\SDL2_image-2.0.0\include" /I"C:\Users\¢ombre\Documents\Visual Studio 2010\Projects\Libraries-SDL2\SDL2_mixer-2.0.0\include" /I"C:\Users\¢ombre\Documents\Visual Studio 2010\Projects\Libraries-SDL2\SDL2_ttf-2.0.12\include" /I"C:\Users\¢ombre\Documents\Visual Studio 2010\Projects\Libraries-SDL2\SDL2-2.0.3\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp Pacman.cpp SDL_Setup.cpp Sprite.cpp
+         Main.cpp
+         Pacman.cpp
+         SDL_Setup.cpp
+         Sprite.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\¢ombre\Documents\Visual Studio 2010\Projects\Pacman\Release\Pacman.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\¢ombre\Documents\Visual Studio 2010\Projects\Libraries-SDL2\SDL2_image-2.0.0\lib\x86" /LIBPATH:"C:\Users\¢ombre\Documents\Visual Studio 2010\Projects\Libraries-SDL2\SDL2_mixer-2.0.0\lib\x86" /LIBPATH:"C:\Users\¢ombre\Documents\Visual Studio 2010\Projects\Libraries-SDL2\SDL2_ttf-2.0.12\lib\x86" /LIBPATH:"C:\Users\¢ombre\Documents\Visual Studio 2010\Projects\Libraries-SDL2\SDL2-2.0.3\lib\x86" SDL2.lib SDL2main.lib SDL2_image.lib SDL2_ttf.lib /MANIFEST /ManifestFile:"Release\Pacman.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\¢ombre\Documents\Visual Studio 2010\Projects\Pacman\Release\Pacman.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\¢ombre\Documents\Visual Studio 2010\Projects\Pacman\Release\Pacman.lib" /MACHINE:X86 Release\Main.obj
+         Release\Pacman.obj
+         Release\SDL_Setup.obj
+         Release\Sprite.obj  /ignore:4098 
+         Génération de code en cours
+         Fin de la génération du code
+         Pacman.vcxproj -> C:\Users\¢ombre\Documents\Visual Studio 2010\Projects\Pacman\Release\Pacman.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\¢ombre\Documents\Visual Studio 2010\Projects\Pacman\Release\Pacman.exe;#1" /manifest Release\Pacman.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Suppression du fichier "Release\Pacman.unsuccessfulbuild".
+         Mise à jour de l'horodatage "Release\Pacman.lastbuildstate".
+     1>Génération du projet "C:\Users\¢ombre\Documents\Visual Studio 2010\Projects\Pacman\Pacman\Pacman.vcxproj" terminée (build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:03.28
