@@ -27,3 +27,4 @@ void CMain::GameLoop()
 		csdl_setup->End();
 	}
 }
+//test
