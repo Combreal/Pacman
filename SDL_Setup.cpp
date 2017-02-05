@@ -4,7 +4,7 @@ CSDL_Setup::CSDL_Setup(bool* quit, int ScreenWidth, int ScreenHeight)
 {
 	SDL_Init(SDL_INIT_EVERYTHING);
 	window = NULL;
-	window = SDL_CreateWindow("Pacman", 150, 150, ScreenWidth, ScreenHeight, SDL_WINDOW_SHOWN); // || SDL_WINDOW_FULLSCREEN
+	window = SDL_CreateWindow("Pacman", 0, 0, ScreenWidth, ScreenHeight, SDL_WINDOW_SHOWN || SDL_WINDOW_FULLSCREEN); // || SDL_WINDOW_FULLSCREEN
 	if (window == NULL)
 	{
 		std::cout<<"window couldn't be created"<<std::endl;
