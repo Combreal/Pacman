@@ -8,7 +8,11 @@ public:
 	~CMain(void);
 	void GameLoop();
 private:
+	float CameraX;
+	float CameraY;
 	bool quit;
+	bool pause;
+	int MouseX, MouseY;
 	int ScreenWidth;
 	int ScreenHeight;
 	CSDL_Setup* csdl_setup;
